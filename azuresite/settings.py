@@ -85,7 +85,7 @@ DATABASES = {
         'USER': 'myuser@crm-project',
         'PASSWORD': 'passwordMY1',
         'HOST': 'crm-project.postgres.database.azure.com',
-        'PORT': '5432',
+        'PORT': '',
         # 'USER': 'myuser',
         # 'PASSWORD': 'password',
         # 'HOST': 'localhost',
