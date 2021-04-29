@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'customer', 
 ]
 
 MIDDLEWARE = [
@@ -77,9 +78,17 @@ WSGI_APPLICATION = 'azuresite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mydb',
+        'USER': 'myuser@crm-project',
+        'PASSWORD': 'passwordMY1',
+        'HOST': 'crm-project.postgres.database.azure.com',
+        'PORT': '5432',
+        # 'USER': 'myuser',
+        # 'PASSWORD': 'password',
+        # 'HOST': 'localhost',
+        # 'PORT': '',
+        }
 }
 
 
