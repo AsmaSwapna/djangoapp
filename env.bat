@@ -1,4 +1,4 @@
-set DBHOST=localhost
-set DBUSER=manager
-set DBNAME=pollsdb
-set DBPASS=supersecretpass
+set DBHOST=crm-project.postgres.database.azure.com
+set DBUSER=myuser@crm-project
+set DBNAME=mydb
+set DBPASS=passwordMY1

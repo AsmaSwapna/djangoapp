@@ -1,4 +1,4 @@
-$Env:DBHOST = "localhost"
-$Env:DBUSER = "manager"
-$Env:DBNAME = "pollsdb"
-$Env:DBPASS = "supersecretpass"
+$Env:DBHOST = "crm-project.postgres.database.azure.com"
+$Env:DBUSER = "myuser@crm-project"
+$Env:DBNAME = "mydb"
+$Env:DBPASS = "passwordMY1"
