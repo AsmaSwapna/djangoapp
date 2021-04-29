@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'customerConsigli'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_96e7883a4e2f4e5489130973c2199d8d }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_be049df881eb48be8e1e7b4048ad2310 }}
