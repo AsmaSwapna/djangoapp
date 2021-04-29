@@ -37,7 +37,7 @@ jobs:
       run: python manage.py migrate
 
     - name: Create the super user (follow prompts)
-      run: python manage.py createsuperuser --username admin --password passwordMY1  --email 
+      run: python manage.py createsuperuser --username admin --password passwordMY1  --email asma@consigli.no
       
     - name: Run the dev server
       run: python manage.py runserver
