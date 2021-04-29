@@ -29,7 +29,10 @@ jobs:
     
     - name: Install dependencies
       run: pip install -r requirements.txt
-      
+    
+    - name: Run database makemigrations
+    run: python manage.py makemigrations
+
     - name: Run database migrations
       run: python manage.py migrate
 
