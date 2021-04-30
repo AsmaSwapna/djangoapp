@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'customer', 
+    # 'customer', 
     'djangorest',
     'rest_framework',
 ]
@@ -85,7 +85,7 @@ DATABASES = {
         'USER': 'myuser@crm-project',
         'PASSWORD': 'passwordMY1',
         'HOST': 'crm-project.postgres.database.azure.com',
-        'PORT': '',
+        'PORT': '8000',
         # 'USER': 'myuser',
         # 'PASSWORD': 'password',
         # 'HOST': 'localhost',
